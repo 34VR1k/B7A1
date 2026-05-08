@@ -173,17 +173,6 @@ This safely checks the structure before accessing properties.
 - Dynamic JSON data
 - Untrusted data sources
 
----
-
-# `any` vs `unknown`
-
-| Feature | `any` | `unknown` |
-|---|---|---|
-| Allows any value | ✅ | ✅ |
-| Type safety | ❌ | ✅ |
-| Requires validation | ❌ | ✅ |
-| Prevents unsafe operations | ❌ | ✅ |
-| Recommended for production | ❌ | ✅ |
 
 ---
 
